@@ -73,6 +73,28 @@
         letter-spacing: 0.05em;
     }
 
+    .bloqueFinal{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .bloqueFinal .cuadroImagen {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .bloqueFinal .cuadroImagen img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+    }
 
 
 
